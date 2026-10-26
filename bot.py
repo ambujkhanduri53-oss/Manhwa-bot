@@ -15,7 +15,7 @@ from google.genai import types
 
 TOKEN = os.environ["TELEGRAM_TOKEN"]
 GEMINI_KEY = os.environ["GEMINI_API_KEY"]
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 ALLOWED = os.environ.get("ALLOWED_USER_ID", "").strip()
 
 API = f"https://api.telegram.org/bot{TOKEN}"
