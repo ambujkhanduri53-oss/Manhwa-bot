@@ -28,4 +28,4 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALLOWED_USER_ID: ${{ secrets.ALLOWED_USER_ID }}
-        run: python bot.py
+        run: python bot2.py
